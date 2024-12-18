@@ -1674,7 +1674,7 @@ bool Window::writeEntryToFile(const QString& entryPath, const QString& filepath)
 }
 
 void Window::resetStatusBar() {
-	QString packFileStatus(std::string{*this->packFile}.c_str());
+	QString packFileStatus( std::string{ *this->packFile }.c_str() );
 	packFileStatus
 		.replace( "AppID", 			tr( "AppID" ) )
 		.replace( "App Version", 	tr( "App Version" ) )
@@ -1685,7 +1685,7 @@ void Window::resetStatusBar() {
 		.replace( "Embedded", 		tr( "Embedded" ) )
 		.replace( "Encrypted", 		tr( "Encrypted" ) )
 		.replace( "Read-Only", 		tr( "Read-Only" ) );
-	this->statusText->setText(' ' + tr("Loaded") + ' ' + packFileStatus);
+	this->statusText->setText( ' ' + tr("Loaded") + ' ' + packFileStatus );
 	this->statusText->show();
 	this->statusProgressBar->hide();
 }
