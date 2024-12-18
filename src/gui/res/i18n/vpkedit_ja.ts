@@ -583,6 +583,11 @@ See below for more information.</source>
     </message>
     <message>
       <location filename="../../Window.cpp" line="1687"/>
+      <source>Read-Only</source>
+      <translation></translation>
+    </message>
+    <message>
+      <location filename="../../Window.cpp" line="1688"/>
       <source>Loaded</source>
       <translation>ロードされた</translation>
     </message>

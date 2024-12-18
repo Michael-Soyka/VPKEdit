@@ -594,7 +594,7 @@ See below for more information.</source>
       <translation>Название аддона:</translation>
     </message>
     <message>
-      <location filename="../../Window.cpp" line="1687"/>
+      <location filename="../../Window.cpp" line="1688"/>
       <source>Loaded</source>
       <translation>Загружено</translation>
     </message>
@@ -632,6 +632,11 @@ See below for more information.</source>
       <location filename="../../Window.cpp" line="1686"/>
       <source>Encrypted</source>
       <translation>Зашифрованный</translation>
+    </message>
+    <message>
+        <location filename="../../Window.cpp" line="1687"/>
+        <source>Read-Only</source>
+        <translation>Только для чтения</translation>
     </message>
     <message>
       <location filename="../../Window.cpp" line="340"/>

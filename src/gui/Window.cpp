@@ -1676,14 +1676,15 @@ bool Window::writeEntryToFile(const QString& entryPath, const QString& filepath)
 void Window::resetStatusBar() {
 	QString packFileStatus(std::string{*this->packFile}.c_str());
 	packFileStatus
-		.replace("AppID", tr("AppID"))
-		.replace("App Version", tr("App Version"))
-		.replace("Godot Version", tr("Godot Version"))
-		.replace("Version", tr("Version"))
-		.replace("Map Revision", tr("Map Revision"))
-		.replace("Addon Name:", tr("Addon Name:"))
-		.replace("Embedded", tr("Embedded"))
-		.replace("Encrypted", tr("Encrypted"));
+		.replace( "AppID", 			tr( "AppID" ) )
+		.replace( "App Version", 	tr( "App Version" ) )
+		.replace( "Godot Version", 	tr( "Godot Version" ) )
+		.replace( "Version", 		tr( "Version" ) )
+		.replace( "Map Revision", 	tr( "Map Revision" ) )
+		.replace( "Addon Name:", 	tr( "Addon Name:" ) )
+		.replace( "Embedded", 		tr( "Embedded" ) )
+		.replace( "Encrypted", 		tr( "Encrypted" ) )
+		.replace( "Read-Only", 		tr( "Read-Only" ) );
 	this->statusText->setText(' ' + tr("Loaded") + ' ' + packFileStatus);
 	this->statusText->show();
 	this->statusProgressBar->hide();

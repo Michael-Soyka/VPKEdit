@@ -594,6 +594,11 @@ Kijk hieronder voor meer infomatie.</translation>
     </message>
     <message>
       <location filename="../../Window.cpp" line="1687"/>
+      <source>Read-Only</source>
+      <translation></translation>
+    </message>
+    <message>
+      <location filename="../../Window.cpp" line="1688"/>
       <source>Loaded</source>
       <translation>Geladen</translation>
     </message>

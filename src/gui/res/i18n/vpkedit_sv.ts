@@ -597,7 +597,7 @@ Se nedan för mer information.</translation>
       <translation>Tilläggets namn:</translation>
     </message>
     <message>
-      <location filename="../../Window.cpp" line="1687"/>
+      <location filename="../../Window.cpp" line="1688"/>
       <source>Loaded</source>
       <translation>Laddad</translation>
     </message>
@@ -635,6 +635,11 @@ Se nedan för mer information.</translation>
       <location filename="../../Window.cpp" line="1686"/>
       <source>Encrypted</source>
       <translation>Inkrypterad</translation>
+    </message>
+    <message>
+      <location filename="../../Window.cpp" line="1687"/>
+      <source>Read-Only</source>
+      <translation></translation>
     </message>
     <message>
       <location filename="../../Window.cpp" line="340"/>
